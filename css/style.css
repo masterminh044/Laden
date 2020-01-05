@@ -86,12 +86,13 @@ color:rgba(32, 4, 156, 0.116);
 
 #main 
 {
-width:916px;
+width: 100%;
 margin-top:30px;
 margin-bottom:15px;
 display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
+background-color: rgb(240, 243, 248);
 }
 
 
@@ -224,7 +225,11 @@ color:#C9E1FA;
   }
   .mouse{
 	  width: 300px;
-	  height: 500px;
+	  /* height: 500px; */
+  }
+
+  .mouse a h2 {
+	  font-size: 24px;
   }
 
   .img-detail{
