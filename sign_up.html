@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box}
@@ -71,8 +72,29 @@ button:hover {
   }
 }
 </style>
-<body>
+<link href="assets/css_cart/style.css" rel="stylesheet">
+<link href="assets/css_cart/style.scss" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/global.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="startTime()">
+  <div id="time" style="color: darkslateblue;"></div>
+  <img src="img/illuminatho.jpg" width="50px">
+  <h1>//WELCOME TO THE SHOP//</h1>
+  <div id="page">
 
+      <div class="topnav">
+          <a  href="index.html">Home</a>
+          <a href="product.html">Product</a>
+          <a href="gadget.html">Gadget</a>
+          <a href="about.html">About</a>
+          <a class="active" href="sign_up.html">Sign Up</a>
+
+          <input type="txt" placeholder="Search...">
+      </div>
+      <hr>
+      <br>
 <form action="/action_page.php" style="border:1px solid #ccc">
   <div class="container">
     <h1>Sign Up</h1>
