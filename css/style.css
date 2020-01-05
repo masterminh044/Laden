@@ -89,6 +89,9 @@ color:rgba(32, 4, 156, 0.116);
 width:916px;
 margin-top:30px;
 margin-bottom:15px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
 }
 
 
@@ -218,4 +221,17 @@ color:#C9E1FA;
   .card button:hover {
 	opacity: 0.7;
 
+  }
+  .mouse{
+	  width: 300px;
+	  height: 500px;
+  }
+
+  .img-detail{
+	  width: 300px;
+	  height: 260px
+  }
+
+  a {
+	  text-decoration: none;
   }
