@@ -18,7 +18,7 @@ body {
   height: 40px; 
   background-color:#1f1d1d;
   text-align: center;
-  justify-content: space-around;
+  justify-content:center;
   width:auto ;
   display: flex;
 }
@@ -30,10 +30,12 @@ body {
   padding: 50px 75px;
   font-family: 'Montserrat', sans-serif;
   padding-top: 10px;
+  margin-left: 20px;
   
 }
-
-
+#topnav img {
+  width: 50px;
+}
 .welcomeproduct{
   font-family:'Montserrat', sans-serif; 
   font-size: 50px;
@@ -181,6 +183,37 @@ body {
   color: white;
   text-decoration: none;
   font-size: 20px;
+}
+.smoke{
+  background-image: url(https://images.idgesg.net/images/article/2020/01/lenovo-legion-y740s-100825976-large.3x2.jpg);
+  height: 365px;
+  width: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 32px;    
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.smokeweed{
+  height: 400px;
+  width: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://image-us.samsung.com/SamsungUS/home/computing/windows-laptops/pcd/090919/MB_Laptops-PCD_NotebookOdyssey.jpg?$feature-benefit-bottom-mobile-jpg$);
+}
+#tobaco {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  align-content: center;
+}
+.ditme{
+  font-family:'Montserrat', sans-serif; 
+  font-size: 50px;
+  margin-top: 30px;
+  position: relative;
+  color: white;
 }
 
 
