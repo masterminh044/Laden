@@ -4,6 +4,7 @@ body {
   
   h1 {
     text-align: center;
+    
   }
 
   * {box-sizing: border-box;}
@@ -21,6 +22,8 @@ body {
   justify-content:center;
   width:auto ;
   display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #topnav a {
   text-decoration: none;
@@ -30,8 +33,6 @@ body {
   padding: 50px 75px;
   font-family: 'Montserrat', sans-serif;
   padding-top: 10px;
-  margin-left: 20px;
-  
 }
 #topnav img {
   width: 50px;
@@ -39,7 +40,6 @@ body {
 .welcomeproduct{
   font-family:'Montserrat', sans-serif; 
   font-size: 50px;
-  margin-top: 30px;
   position: relative;
   color: white;
  
@@ -49,10 +49,10 @@ body {
     display: block;
     position: absolute;
     bottom: 0;
-    height: 1px;
+    height: 2px;
     width: 40%;
     left: 405px;
-    background-color: #a8a5a2;
+    background-color: white;
 }
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=txt] {
@@ -172,12 +172,11 @@ body {
 }
 .Lenovo{
   width:100%;
-  height:500px;
+  height:620px;
   background-image:url(https://images.idgesg.net/images/article/2019/11/lenovo-legion-y540-100817444-large.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
-  margin-top: 16px;
 }
 .Lenovo a {
   color: white;
@@ -187,19 +186,21 @@ body {
 .smoke{
   background-image: url(https://images.idgesg.net/images/article/2020/01/lenovo-legion-y740s-100825976-large.3x2.jpg);
   height: 365px;
-  width: 500px;
+  width: 550px;
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 32px;    
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
+  margin-top: 16px;
 }
 .smokeweed{
   height: 400px;
-  width: 500px;
+  width: 550px;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-top: 32px;
   background-image: url(https://image-us.samsung.com/SamsungUS/home/computing/windows-laptops/pcd/090919/MB_Laptops-PCD_NotebookOdyssey.jpg?$feature-benefit-bottom-mobile-jpg$);
 }
 #tobaco {
