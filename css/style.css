@@ -149,7 +149,7 @@ line-height:20px;
 
 a.about:link, a.about:visited {
     background-color: #76ebfa;
-    color: rgb(29, 14, 158);
+    color: rgb(64, 49, 196);
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -178,11 +178,6 @@ a.about:link, a.about:visited {
   overflow: hidden; 
   width: 921px;
 }
-
-
-
-
-
 #footer {
 display:block;
 width: 921px;
