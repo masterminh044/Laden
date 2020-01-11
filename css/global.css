@@ -17,11 +17,7 @@ body {
 #topnav{
   width: max-content;
   height: 40px; 
-<<<<<<< HEAD
-  background-color:#1f1e1e;
-=======
   background-color:#1f1d1d;
->>>>>>> 2a1b74bbc955d50bd19326b2d46769b7596abde9
   text-align: center;
   justify-content:center;
   width:auto ;
@@ -177,11 +173,7 @@ li.dropdown {
   padding-top: 40px;
 }
 #footer{
-<<<<<<< HEAD
-  background-color:  #1f1e1e;
-=======
   background-color:  #1f1d1d;
->>>>>>> 2a1b74bbc955d50bd19326b2d46769b7596abde9
   width: 100%;
   height: 270px;
   display: flex;
@@ -206,10 +198,6 @@ li.dropdown {
 .lol a :active{
   color: antiquewhite;
 }
-<<<<<<< HEAD
-
-
-=======
 .money
 {
   color: #1f1e1e;
@@ -265,7 +253,6 @@ div.polaroid {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
 }
->>>>>>> 2a1b74bbc955d50bd19326b2d46769b7596abde9
 
 div.container {
   padding: 10px;
@@ -276,6 +263,10 @@ div.container {
   margin-right: 5px;
   justify-content: space-evenly;
   padding-top: 32px;
+}
+
+.bruh {
+  color: #c4c0bd;
 }
 
 
