@@ -1,9 +1,10 @@
 body {
-    background-color: rgb(240, 243, 248);
+    background-color: #0f0e0e;
   }
   
   h1 {
     text-align: center;
+    
   }
 
   * {box-sizing: border-box;}
@@ -16,11 +17,17 @@ body {
 #topnav{
   width: max-content;
   height: 40px; 
+<<<<<<< HEAD
   background-color:#1f1e1e;
+=======
+  background-color:#1f1d1d;
+>>>>>>> 2a1b74bbc955d50bd19326b2d46769b7596abde9
   text-align: center;
-  justify-content: space-around;
+  justify-content:center;
   width:auto ;
   display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #topnav a {
   text-decoration: none;
@@ -30,15 +37,17 @@ body {
   padding: 50px 75px;
   font-family: 'Montserrat', sans-serif;
   padding-top: 10px;
-  
+}
+#topnav img {
+  width: 50px;
 }
 
 
 .welcomeproduct{
   font-family:'Montserrat', sans-serif; 
   font-size: 50px;
-  margin-top: 30px;
   position: relative;
+  color: white;
  
 }
 .welcomeproduct::after {
@@ -46,10 +55,10 @@ body {
     display: block;
     position: absolute;
     bottom: 0;
-    height: 1px;
+    height: 2px;
     width: 40%;
-    left: 405px;
-    background-color: #a8a5a2;
+    left: 410px;
+    background-color: white;
 }
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=txt] {
@@ -65,7 +74,6 @@ body {
     border: 1px solid #ccc;  
   }
 }
-
 .main_img {
   width: 500px;
   height: 300px;
@@ -128,7 +136,6 @@ body {
   from {opacity: 0;} 
   to {opacity: 1;}
 }
-
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
@@ -140,7 +147,11 @@ body {
   padding-top: 40px;
 }
 #footer{
+<<<<<<< HEAD
   background-color:  #1f1e1e;
+=======
+  background-color:  #1f1d1d;
+>>>>>>> 2a1b74bbc955d50bd19326b2d46769b7596abde9
   width: 100%;
   height: 270px;
   display: flex;
@@ -165,10 +176,77 @@ body {
 .lol a :active{
   color: antiquewhite;
 }
+<<<<<<< HEAD
 
 
+=======
+.money
+{
+  color: #1f1e1e;
+}
+.Lenovo{
+  width:100%;
+  height:620px;
+  background-image:url(https://images.idgesg.net/images/article/2019/11/lenovo-legion-y540-100817444-large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.Lenovo a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.smoke{
+  background-image: url(https://images.idgesg.net/images/article/2020/01/lenovo-legion-y740s-100825976-large.3x2.jpg);
+  height: 365px;
+  width: 550px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 32px;    
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 16px;
+}
+.smokeweed{
+  height: 400px;
+  width: 550px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 32px;
+  background-image: url(https://image-us.samsung.com/SamsungUS/home/computing/windows-laptops/pcd/090919/MB_Laptops-PCD_NotebookOdyssey.jpg?$feature-benefit-bottom-mobile-jpg$);
+}
+#tobaco {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  align-content: center;
+}
+.ditme{
+  font-family:'Montserrat', sans-serif; 
+  font-size: 50px;
+  margin-top: 30px;
+  position: relative;
+  color: white;
+}
+div.polaroid {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+>>>>>>> 2a1b74bbc955d50bd19326b2d46769b7596abde9
 
-
+div.container {
+  padding: 10px;
+}
+#lucky {
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+  justify-content: space-evenly;
+  padding-top: 32px;
+}
 
 
   
